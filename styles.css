@@ -1,0 +1,129 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar{
+    height: 35px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+}
+.bordered{
+    border: 1px solid black;
+}
+.genre-bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 230px;
+}
+.gitem{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.gitem:nth-of-type(1){
+    margin-left: 5px;
+}
+.logo{
+    align-self: center;
+    display: flex;
+}
+.text{
+    font-size: 12px;
+    font-weight: 600;
+}
+.center{
+    text-align: center;
+    margin: 0 28%;
+}
+.btns{
+    width: 290px;
+}
+.btn{
+    height: 30px;
+    background-color: rgb(8, 85, 116);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.outer-container{
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 30px;
+}
+.ocenter{
+    width: 600px;
+    margin: 0 25%;
+}
+.htext{
+    font-weight: 500;
+    font-size: 40px;
+    font-style: italic;
+}
+.res-image{
+    max-width: 60rem;
+    min-width: 10rem;
+}
+.lcenter{
+    width: fit-content;
+    margin: 0 10%;
+    margin-top: 20px;
+}
+.i-info{
+    font-size: 14px;
+    width: 70%;
+}
+.credit{
+    font-size: 12px;
+}
+.credit::before{
+    content: "-";
+    color: grey;
+}
+.article-container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.by{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.date-social{
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+}
+.social{
+    position: relative;
+    left: 60%;
+}
+.s-icon{
+    margin-left: 5px;
+}
+.text-content{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.image-container{
+    margin-bottom: 30px;
+}
+.content-image{
+    width: 100%;
+    margin-top: 20px;
+}
+.i-logo{
+    font-size: 12px;
+}
+.footer{
+    font-size: 10px;
+}
